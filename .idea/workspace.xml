@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/currentObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/Archer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/King.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/Knight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/Queen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/character/Troll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/weapon/AxeBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/weapon/BowAndArrowBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/weapon/KnifeBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/weapon/SwordBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DPatterns/com/company/strategy/task01/weapon/WeaponBehavor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observeble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observeble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559055957793</updated>
-      <workItem from="1582950428453" duration="5257000" />
+      <workItem from="1582950428453" duration="6632000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>
