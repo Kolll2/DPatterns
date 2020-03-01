@@ -1,4 +1,4 @@
-package com.company.observer.task01.basic;
+package com.company.observer.basic;
 
 public class currentObserver implements Observer{
     @Override

@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
-      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/currentObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/problemtask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/problemtask/service/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/problemtask/service/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/problemtask/service/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/javautil/displays/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/DislayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/observer/task01/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/components/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/components/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/components/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/cafeapp/components/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observeble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observeble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observeble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/basic/Observeble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/basic/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/basic/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/basic/currentObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/basic/currentObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/javautil/ArgumentsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/javautil/ArgumentsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/javautil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/javautil/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/javautil/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/javautil/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/javautil/displays/BasicDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/observer/javautil/displays/BasicDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/observer/task01/javautil/displays/Display.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +76,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.strategy.cafeapp" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.observer.task01" />
       <recent name="com.company.strategy.task01" />
     </key>
   </component>
@@ -67,13 +96,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.strategy.task01.Main" />
       <module name="DPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.strategy.task01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.decorator.problemtask.Main" />
+      <module name="DPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.decorator.problemtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.strategy.cafeapp.Main" />
+      <module name="DPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.strategy.cafeapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,9 +149,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -111,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559055957793</updated>
-      <workItem from="1582950428453" duration="6632000" />
+      <workItem from="1582950428453" duration="8591000" />
+      <workItem from="1583054802007" duration="4626000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>
@@ -138,7 +198,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

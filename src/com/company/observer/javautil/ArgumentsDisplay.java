@@ -1,6 +1,4 @@
-package com.company.observer.task01.javautil;
-
-import com.company.observer.task01.javautil.displays.Display;
+package com.company.observer.javautil;
 
 import java.util.Observable;
 import java.util.Observer;

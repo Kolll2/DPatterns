@@ -1,4 +1,4 @@
-package com.company.observer.task01.javautil.displays;
+package com.company.observer.javautil.displays;
 
 public class BasicDisplay implements Display {
     @Override

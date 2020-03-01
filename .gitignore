@@ -102,3 +102,4 @@ fabric.properties
 /.idea/vcs.xml
 /out/
 /.idea/
+!/.idea/

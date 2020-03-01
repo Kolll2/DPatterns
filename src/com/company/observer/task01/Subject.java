@@ -1,6 +1,8 @@
-package com.company.observer.task01.basic;
+package com.company.observer.task01;
 
-public interface Observeble {
+import com.company.observer.task01.Observer;
+
+public interface Subject {
     void registerObserver(Observer observer);
     void removeObserver(Observer observer);
     void notifyObservers();

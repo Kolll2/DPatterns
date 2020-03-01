@@ -1,4 +1,4 @@
-package com.company.observer.task01.basic;
+package com.company.observer.basic;
 
 public interface Observer {
     void update(float arg1, int arg2, String arg3);

@@ -1,4 +1,4 @@
-package com.company.observer.task01.javautil;
+package com.company.decorator;
 
 public class Main {
     public static void main(String[] args) {
