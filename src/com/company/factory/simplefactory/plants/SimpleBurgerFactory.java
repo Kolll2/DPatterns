@@ -1,4 +1,4 @@
-package com.company.factory.simplefactory.factorys;
+package com.company.factory.simplefactory.plants;
 
 import com.company.factory.simplefactory.burgers.Burger;
 import com.company.factory.simplefactory.burgers.Cheeseburger;

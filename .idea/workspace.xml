@@ -3,16 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/BurgerStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Cheeseburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/factorys/SimpleBurgerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/Bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/IngredientDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/Onion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoCheeseburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoHamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/classic/Cheeseburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/classic/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYCheeseburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYHamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/BurgerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/ChicagoBurgerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/NYBurgerStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/factory/simplefactory/BurgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/BurgerStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/factory/simplefactory/factorys/SimpleBurgerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/plants/SimpleBurgerFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/factory/factorymethod" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +61,17 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JAVA_PROJECT\DPatterns" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JAVA_PROJECT\DPatterns\src\com\company\factory\factorymethod" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.factory.factorymethod.stores" />
+      <recent name="com.company.factory.factorymethod.burgers.nysyle" />
+      <recent name="com.company.factory.factorymethod.burgers.chicagostyle" />
+      <recent name="com.company.factory.factorymethod" />
       <recent name="com.company.strategy.cafeapp" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -77,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.strategy.task01.Main" />
       <module name="DPatterns" />
@@ -130,25 +144,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.factory.factorymethod.Main" />
       <module name="DPatterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.factory.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
@@ -168,7 +186,7 @@
       <updated>1559055957793</updated>
       <workItem from="1582950428453" duration="8591000" />
       <workItem from="1583054802007" duration="9167000" />
-      <workItem from="1583079777815" duration="2864000" />
+      <workItem from="1583079777815" duration="5385000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>

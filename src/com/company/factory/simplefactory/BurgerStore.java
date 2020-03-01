@@ -1,7 +1,7 @@
 package com.company.factory.simplefactory;
 
 import com.company.factory.simplefactory.burgers.Burger;
-import com.company.factory.simplefactory.factorys.SimpleBurgerFactory;
+import com.company.factory.simplefactory.plants.SimpleBurgerFactory;
 
 public class BurgerStore {
     SimpleBurgerFactory factory;
