@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
-      <change afterPath="$PROJECT_DIR$/src/com/company/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/BurgerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Cheeseburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/burgers/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/factorys/SimpleBurgerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/Bacon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/IngredientDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/simplefactory/ingredient/Onion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1559055957793</updated>
       <workItem from="1582950428453" duration="8591000" />
-      <workItem from="1583054802007" duration="8578000" />
+      <workItem from="1583054802007" duration="9167000" />
+      <workItem from="1583079777815" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>
