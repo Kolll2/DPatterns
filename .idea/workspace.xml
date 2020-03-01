@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
-      <change afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/DarkRoast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/beverage/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Mocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Soy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decorator/cafeapp/components/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559055957793</updated>
       <workItem from="1582950428453" duration="8591000" />
-      <workItem from="1583054802007" duration="8320000" />
+      <workItem from="1583054802007" duration="8578000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>
