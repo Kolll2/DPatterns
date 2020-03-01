@@ -1,12 +1,14 @@
 package com.company.decorator.cafeapp.components;
 
 import com.company.decorator.cafeapp.beverage.Beverage;
+import com.company.decorator.cafeapp.beverage.Size;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;
 
     public Mocha(Beverage beverage) {
         this.beverage = beverage;
+        this.setSize(beverage.getSize());
     }
 
     @Override
@@ -16,6 +18,14 @@ public class Mocha extends CondimentDecorator {
 
     @Override
     public double cost() {
-        return .20d + beverage.cost();
+        double cost = beverage.cost();
+        if (getSize() == Size.TALL) {
+            cost += 0.15d;
+        } else if (getSize() == Size.GRANDE){
+            cost += 0.2d;
+        } else if (getSize() == Size.VENTI){
+            cost += 0.25d;
+        }
+        return cost;
     }
 }
