@@ -6,6 +6,10 @@ public class ChicagoHamburger extends Burger {
 
     public ChicagoHamburger() {
         description = "ChicagoHamburger";
+        name = "Chicago style Hamburger with coleslaw";
+        bun = "high soft bun";
+        cutlet = "high beef cutlet";
+        toppings.add("coleslaw");
     }
 
     @Override

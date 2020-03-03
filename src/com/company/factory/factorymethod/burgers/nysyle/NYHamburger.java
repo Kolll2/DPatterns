@@ -6,6 +6,11 @@ public class NYHamburger extends Burger {
 
     public NYHamburger() {
         description = "NYHamburger";
+        name = "NY style amburger with coleslaw";
+        bun = "low crunch bun";
+        cutlet = "large beef cutlet";
+        toppings.add("salad");
+        toppings.add("tomato");
     }
 
     @Override
