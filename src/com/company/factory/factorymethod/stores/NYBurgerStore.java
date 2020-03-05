@@ -6,7 +6,7 @@ import com.company.factory.factorymethod.burgers.nysyle.NYHamburger;
 
 public class NYBurgerStore extends BurgerStore {
     @Override
-    protected Burger createPizza(String type) {
+    protected Burger createBurger(String type) {
         Burger burger = null;
         if (type.equals("Hamburger") || (type.equals("hamburger"))){
             burger = new NYHamburger();

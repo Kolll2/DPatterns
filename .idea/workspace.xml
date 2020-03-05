@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/ChicagoPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/cheese/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/cheese/Mozzarella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/cheese/ReggianoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/clams/Clams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/clams/FreshClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/clams/FrozenClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/dough/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/dough/ThickCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/dough/ThinCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/pepperoni/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/pepperoni/SlicedPepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/sauce/MarinaraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/sauce/PlumTomatoSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/sauce/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/BlackOlives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/EggPlant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/Garlic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/Onion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/RedPapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/Spinach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/ingredients/veggies/Veggies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/stores/PizzaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoCheeseburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoCheeseburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoHamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/chicagostyle/ChicagoHamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYCheeseburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYCheeseburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYHamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/burgers/nysyle/NYHamburger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/BurgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/BurgerStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/ChicagoBurgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/ChicagoBurgerStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/NYBurgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/factorymethod/stores/NYBurgerStore.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,8 +80,12 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\JAVA_PROJECT\DPatterns" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.factory.abstractFactory.ingredients.veggies" />
+      <recent name="com.company.factory.abstractFactory.ingredients.clams" />
+      <recent name="com.company.factory.abstractFactory.ingredients.cheese" />
+      <recent name="com.company.factory.abstractFactory.ingredients.sauce" />
+      <recent name="com.company.factory.abstractFactory.ingredients.dough" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JAVA_PROJECT\DPatterns\src\com\company\factory\factorymethod" />
@@ -64,9 +97,8 @@
       <recent name="com.company.factory.factorymethod" />
       <recent name="com.company.strategy.cafeapp" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.observer.task01" />
-      <recent name="com.company.strategy.task01" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JAVA_PROJECT\DPatterns" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,6 +210,7 @@
       <workItem from="1583054802007" duration="9167000" />
       <workItem from="1583079777815" duration="5859000" />
       <workItem from="1583258123283" duration="2139000" />
+      <workItem from="1583429912013" duration="3788000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>

@@ -8,12 +8,12 @@ public abstract class BurgerStore {
     public Burger orderBurger (String type){
         Burger burger;
 
-        burger = createPizza(type);
+        burger = createBurger(type);
 
         burger.prepare();
         burger.incase();
         return burger;
     }
 
-    protected abstract Burger createPizza(String type);
+    protected abstract Burger createBurger(String type);
 }
