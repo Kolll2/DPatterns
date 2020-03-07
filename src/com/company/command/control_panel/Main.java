@@ -42,12 +42,16 @@ public class Main {
         controlPanel.offButtonWasPressed(0);
         controlPanel.onButtonWasPressed(1);
         controlPanel.offButtonWasPressed(1);
+        System.out.println("    The undo button is pressed   >>");
+        controlPanel.undoButtonWasPushed();
         controlPanel.onButtonWasPressed(2);
         controlPanel.offButtonWasPressed(2);
         controlPanel.onButtonWasPressed(3);
         controlPanel.offButtonWasPressed(3);
         controlPanel.onButtonWasPressed(4);
         controlPanel.offButtonWasPressed(4);
+        System.out.println("    The undo button is pressed   >>");
+        controlPanel.undoButtonWasPushed();
         controlPanel.onButtonWasPressed(5);
         controlPanel.offButtonWasPressed(5);
         controlPanel.onButtonWasPressed(6);

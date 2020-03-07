@@ -36,7 +36,7 @@ hs_err_pid*
 .idea/**/dictionaries
 .idea/**/shelf
 .idea/misc.xml
-.idea/warkspace.xml
+.idea/workspace.xml
 
 
 # Generated files
@@ -102,4 +102,4 @@ fabric.properties
 /.idea/vcs.xml
 /out/
 /.idea/
-!/.idea/
+!/.idea/workspace.xml

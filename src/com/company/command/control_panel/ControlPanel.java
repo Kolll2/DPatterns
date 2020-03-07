@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ControlPanel {
     Command[] onCommands;
     Command[] offCommands;
+    Command undoCommand;
 
 
     public ControlPanel() {
@@ -12,6 +13,7 @@ public class ControlPanel {
         offCommands = new Command[7];
 
         defaultInitialization();
+        undoCommand = new NoCommand();
     }
 
     private void defaultInitialization() {
@@ -29,10 +31,16 @@ public class ControlPanel {
 
     public void onButtonWasPressed(int slot) {
         onCommands[slot].execute();
+        undoCommand = onCommands[slot];
     }
 
     public void offButtonWasPressed(int slot) {
         offCommands[slot].execute();
+        undoCommand = offCommands[slot];
+    }
+
+    public void undoButtonWasPushed() {
+        undoCommand.undo();
     }
 
     @Override
