@@ -1,11 +1,17 @@
 package com.company.command.control_panel;
 
 public class Light {
+    String name;
+
+    public Light(String name) {
+        this.name = name;
+    }
+
     public void on (){
-        System.out.println("Light is on");
+        System.out.println(name +" light is on");
     }
 
     public void off(){
-        System.out.println("Light is off");
+        System.out.println(name +" light is off");
     }
 }

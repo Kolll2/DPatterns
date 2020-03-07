@@ -1,6 +1,12 @@
 package com.company.command.control_panel;
 
 public class GarageDoor {
+    String name;
+
+    public GarageDoor(String name) {
+        this.name = name;
+    }
+
     public void up() {
         System.out.println("Garage door is open");
     }
