@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
-      <change afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/stores/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/singleton/simple_implementation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/singleton/simple_implementation/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/singleton/thread_safe_simple_implementation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/singleton/thread_safe_simple_implementation/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/CheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/CheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/ClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/factory/abstractFactory/pizza/ClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/singleton/simple_implementation/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/singleton/simple_implementation/Singleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +181,7 @@
       <workItem from="1583079777815" duration="5859000" />
       <workItem from="1583258123283" duration="2139000" />
       <workItem from="1583429912013" duration="3788000" />
-      <workItem from="1583574769118" duration="5269000" />
+      <workItem from="1583574769118" duration="6305000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
       <created>1582963693363</created>

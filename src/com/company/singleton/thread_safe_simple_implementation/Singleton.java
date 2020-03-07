@@ -1,4 +1,4 @@
-package com.company.singleton.simple_implementation;
+package com.company.singleton.thread_safe_simple_implementation;
 
 public class Singleton {
     private static Singleton instance;
@@ -9,7 +9,7 @@ public class Singleton {
     }
 
     //
-    public static Singleton getInstance() {
+    public static synchronized Singleton getInstance() {
 
         if (instance == null)
             instance = new Singleton();
