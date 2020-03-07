@@ -1,8 +1,8 @@
 package com.company.command.control_panel;
 
 public class CeilingFanOnCommand implements Command {
-
     CeilingFan ceilingFan;
+    int prevSpeed;
 
     public CeilingFanOnCommand(CeilingFan ceilingFan) {
         this.ceilingFan = ceilingFan;
@@ -10,11 +10,24 @@ public class CeilingFanOnCommand implements Command {
 
     @Override
     public void execute() {
-        ceilingFan.on();
+        prevSpeed = ceilingFan.getSpeed();
+        ceilingFan.off();
     }
 
     @Override
     public void undo() {
-        ceilingFan.on();
+        switch (prevSpeed) {
+            case CeilingFan.HIGH:
+                ceilingFan.high();
+                break;
+            case CeilingFan.MEDIUM:
+                ceilingFan.medium();
+                break;
+            case CeilingFan.LOW:
+                ceilingFan.low();
+                break;
+            case CeilingFan.OFF:
+                ceilingFan.off();
+        }
     }
 }

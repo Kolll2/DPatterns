@@ -20,6 +20,9 @@ public class Main {
         // Sets commands for ceiling fan
         CeilingFanOnCommand ceilingFanOn = new CeilingFanOnCommand(ceilingFan);
         CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
+        CeilingFanHighCommand ceilingFanHigh = new CeilingFanHighCommand(ceilingFan);
+        CeilingFanMediumCommand ceilingFanMedium = new CeilingFanMediumCommand(ceilingFan);
+        CeilingFanLowCommand ceilingFanLow = new CeilingFanLowCommand(ceilingFan);
 
         // Sets commands for garage door
         GarageDoorOpenCommand garageDoorOpen = new GarageDoorOpenCommand(garageDoor);
@@ -35,6 +38,9 @@ public class Main {
         controlPanel.setCommand(2,ceilingFanOn, ceilingFanOff);
         controlPanel.setCommand(3,garageDoorOpen, garageDoorClose);
         controlPanel.setCommand(4,stereoOnWithCD, stereoOffWithCD);
+        controlPanel.setCommand(5, ceilingFanLow,ceilingFanMedium);
+        controlPanel.setCommand(6, ceilingFanHigh,ceilingFanOff);
+
 
         System.out.println(controlPanel);
 
@@ -56,6 +62,8 @@ public class Main {
         controlPanel.offButtonWasPressed(5);
         controlPanel.onButtonWasPressed(6);
         controlPanel.offButtonWasPressed(6);
+        System.out.println("    The undo button is pressed   >>");
+        controlPanel.undoButtonWasPushed();
 
 
 
