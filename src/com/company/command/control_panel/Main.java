@@ -65,6 +65,19 @@ public class Main {
         System.out.println("    The undo button is pressed   >>");
         controlPanel.undoButtonWasPushed();
 
+        // test MacroCommand
+        System.out.println("-------- Test MacroCommand --------");
+        Command[] partyOn = {livingRoomLightOn, kitchenLightOn, garageDoorOpen, stereoOnWithCD};
+        Command[] partyOff = {livingRoomLightOff, kitchenLightOff, garageDoorClose, stereoOffWithCD};
+
+        MacroCommand partyOnMacro = new MacroCommand(partyOn);
+        MacroCommand partyOffMacro = new MacroCommand(partyOff);
+
+        controlPanel.setCommand(0, partyOnMacro,partyOffMacro);
+        controlPanel.onButtonWasPressed(0);
+        System.out.println("-------- Test MacroCommand Undo--------");
+        controlPanel.undoButtonWasPushed();
+
 
 
     }
