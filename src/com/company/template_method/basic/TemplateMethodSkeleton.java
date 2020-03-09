@@ -11,8 +11,14 @@ public abstract class TemplateMethodSkeleton {
         primitiveOperation1();
         primitiveOperation2();
         concreteOperation();
+//      a template method can include empty methods for overriding by descendants.
+        hook();
     }
-//  default implementation
+//  empty method
+    void hook() {
+    }
+
+    //  default implementation
     private void primitiveOperation1() {
         System.out.println("general operation №1");
     }

@@ -7,4 +7,6 @@ public class SubClass extends TemplateMethodSkeleton {
     protected void concreteOperation() {
         System.out.println("@Override abstract concreteOperation");
     }
+
+
 }
