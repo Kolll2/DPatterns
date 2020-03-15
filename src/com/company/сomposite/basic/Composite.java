@@ -1,6 +1,11 @@
 package com.company.сomposite.basic;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+
 public class Composite extends Component {
+    ArrayList components = new ArrayList();
     String name;
     String description;
 
@@ -16,36 +21,42 @@ public class Composite extends Component {
 
     @Override
     public void add(Component component) {
-        super.add(component);
+        components.add(component);
     }
 
     @Override
     public void remove(Component component) {
-        super.remove(component);
+       components.remove(component);
     }
 
     @Override
     public String getName() {
-        return super.getName();
+        return name;
     }
 
     @Override
     public void print() {
-        super.print();
+        System.out.print("\n" + getName());
+        System.out.println(", " + getDescription());
+        System.out.println("--------------------------");
+        Iterator iterator = components.iterator();
+        while(iterator.hasNext()){
+            Component menuComponent = (Component) iterator.next();
+            menuComponent.print();
+        }
     }
 
     @Override
-    public void getChild(int i) {
-        super.getChild(i);
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
+    public Component getChild(int i) {
+        return (Component) components.get(i);
     }
 
     @Override
     public String getDescription() {
         return description;
+    }
+
+    public void addAll(Component ... components) {
+        this.components.addAll(Arrays.asList(components));
     }
 }

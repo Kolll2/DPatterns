@@ -1,6 +1,6 @@
 package com.company.сomposite.basic;
 
-public abstract class Component {
+public class Component {
 
     public void operation() {
         throw new UnsupportedOperationException();
@@ -22,7 +22,7 @@ public abstract class Component {
         throw new UnsupportedOperationException();
     }
 
-    public void getChild(int i) {
+    public Component getChild(int i) {
         throw new UnsupportedOperationException();
     }
 
