@@ -1,6 +1,7 @@
 package com.company.сomposite.menu;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Menu extends MenuComponent {
     ArrayList menuComponents = new ArrayList();
@@ -42,5 +43,10 @@ public class Menu extends MenuComponent {
         System.out.print("\n" + getName());
         System.out.println(", " + getDescription());
         System.out.println("--------------------------");
+        Iterator iterator = menuComponents.iterator();
+        while(iterator.hasNext()){
+            MenuComponent menuComponent = (MenuComponent) iterator.next();
+            menuComponent.print();
+        }
     }
 }
