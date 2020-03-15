@@ -7,6 +7,6 @@ public class Client  {
         Waitress waitress = new Waitress();
 
         waitress.printMenu();
-
+        waitress.printVegetarianMenu();
     }
 }

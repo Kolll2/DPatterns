@@ -1,6 +1,11 @@
 package com.company.сomposite.menu;
 
+import java.util.Iterator;
+
 public class MenuComponent {
+
+    Iterator iterator = null;
+
     public String getName() {
         throw new UnsupportedOperationException();
     }
@@ -33,5 +38,8 @@ public class MenuComponent {
         throw new UnsupportedOperationException();
     }
 
+    public Iterator createIterator() {
+        throw new UnsupportedOperationException();
+    }
 
 }

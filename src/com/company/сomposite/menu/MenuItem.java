@@ -37,7 +37,7 @@ public class MenuItem extends MenuComponent {
     public void print() {
         System.out.print("\t" + getName());
         if (isVegetarian()){
-            System.out.println("(v)");
+            System.out.print("(v)");
         }
         System.out.println(", " + getPrice());
         System.out.println("\t" + getDescription());
