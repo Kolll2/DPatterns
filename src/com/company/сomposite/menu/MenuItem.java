@@ -35,11 +35,11 @@ public class MenuItem extends MenuComponent {
 
     @Override
     public void print() {
-        System.out.print("\t" + getName());
+        System.out.print(" " + getName());
         if (isVegetarian()){
-            System.out.print("(v)");
+            System.out.print(" (v)");
         }
         System.out.println(", " + getPrice());
-        System.out.println("\t" + getDescription());
+        System.out.println("-- \t" + getDescription());
     }
 }
