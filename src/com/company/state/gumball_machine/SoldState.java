@@ -33,4 +33,9 @@ public class SoldState implements State {
             gumballMachine.setState(gumballMachine.getSoldOutState());
         }
     }
+
+    @Override
+    public String toString() {
+        return "sold";
+    }
 }
