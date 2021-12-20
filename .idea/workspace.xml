@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ba056d-4389-4f0a-aa05-4f507af43c44" name="Default Changelist" comment="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization">
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/CeilingFanOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/CeilingFanOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/GarageDoorCloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/StereoOffWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/command/structure/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/command/structure/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/command/structure/CommandOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/command/structure/CommandTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/command/control_panel/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/ControlPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/command/control_panel/GarageDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/GarageDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/command/control_panel/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/command/control_panel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/command/control_panel/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +34,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YSyiirjpqna9hWVbnmbTxW4nXO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -52,7 +48,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/command/control_panel/LightOnCommand.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,19 +89,20 @@
       <recent name="com.company.factory.abstractFactory.ingredients.sauce" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.command.structure.Client" />
+      <module name="DPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.command.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.strategy.cafeapp.Main" />
       <module name="DPatterns" />
@@ -176,11 +173,11 @@
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
@@ -188,6 +185,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -231,13 +229,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added pattern Observer, simple realization on java.util class and working at simple basic realization" />
